@@ -37,5 +37,6 @@ int main()
             }
         }
     }
+    //shows the rate of correct predictions
     std::cout << "Percentage: " << (double) count / a/a/a*100;
 }

@@ -272,7 +272,6 @@ double Model::train_single(vd input, vd target)
 double Model::eval_loss(vd prediction, vd output)
 {
     if(prediction.size() != output.size()) std::cerr << "Prediction and output do not have same size\n";
-    if(prediction.size() == 0) std::cout << "FUCKKKKKK\n\n\n\n";
     if(loss_function == "mean_squared_error")
     {
         double loss = 0;
